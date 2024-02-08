@@ -1,0 +1,285 @@
+@media screen and (max-width: 1250px) {
+  html {
+    font-size: 55%;
+  }
+  .nav-list {
+    column-gap: 3.8rem;
+  }
+  .nav-right {
+    justify-content: space-evenly;
+  }
+  .img-container img {
+    width: 48rem;
+  }
+  .container {
+    max-width: 99rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 50%;
+  }
+  .nav-link {
+    font-size: 1.6rem;
+  }
+  .img-container img {
+    width: 45rem;
+  }
+  .intro_1,
+  .intro_2 {
+    font-size: 2.6rem;
+  }
+  .name {
+    font-size: 5rem;
+  }
+  .email-me {
+    height: 10rem;
+    width: 10rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+  .book-container {
+    column-gap: 25rem;
+  }
+  .hobby-container {
+    column-gap: 3rem;
+  }
+  .hobby_content-container img {
+    width: 10rem;
+    height: 8rem;
+  }
+  .container {
+    padding: 2rem;
+  }
+  .nav-list {
+    column-gap: 2.8rem;
+  }
+  .con-txt {
+    font-size: 2.2rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 45%;
+  }
+  .nav-list {
+    column-gap: 2.6rem;
+  }
+  .nav-link {
+    font-size: 1.4rem;
+  }
+
+  .img-container img {
+    width: 40rem;
+  }
+  .book-container {
+    column-gap: 23rem;
+  }
+  .book_img-container img {
+    height: 27rem;
+    width: 21rem;
+  }
+  .txt {
+    font-size: 1.6rem;
+  }
+  .book-desc {
+    font-size: 2rem;
+  }
+  .desc-t {
+    font-size: 2rem;
+  }
+  .hobby_content-container img {
+    width: 8.6rem;
+    height: auto;
+  }
+  .hobby_content-container span {
+    font-size: 1.6rem;
+  }
+  .contact-content {
+    column-gap: 14rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  html {
+  }
+  header {
+    border-bottom: 1px solid #eee;
+  }
+  .temp-d {
+    display: block;
+  }
+  .nav-container {
+    display: block;
+    text-align: center;
+  }
+  .nav-link-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .logo-container {
+  }
+  .logo img {
+    width: 15rem;
+  }
+  .nav-right {
+    top: 0;
+    right: 0;
+    position: fixed;
+    transform: translateX(150%);
+    visibility: hidden;
+    pointer-events: none;
+
+    transition: all 0.5s;
+    opacity: 0;
+  }
+  .open .nav-right {
+    z-index: 999;
+    top: 0;
+    right: 0;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    height: auto;
+    width: 50%;
+    height: 100%;
+
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+    /* opacity: 1; */
+    /* visibility: visible; */
+    /* transform: translateX(0%); */
+  }
+  .open .nav-list {
+    flex-direction: column;
+    padding-top: 8rem;
+  }
+  .open .nav-link {
+    font-size: 1.8rem;
+  }
+  .section-content {
+    display: flex;
+    background-color: #ff734e;
+  }
+  .content-container {
+    padding-left: 10%;
+  }
+  .main-content {
+    padding-top: 0%;
+    width: 100%;
+  }
+  .intro_1,
+  .intro_2 {
+    font-size: 2rem;
+  }
+  .name {
+    font-size: 4.2rem;
+  }
+  .t_1 {
+    font-size: 2.2rem;
+  }
+  .t_2 {
+    column-gap: 4px;
+  }
+  .about-me {
+    font-size: 2rem;
+    width: 100%;
+  }
+  .side-content {
+    background-color: #ff734e;
+    padding-top: 1%;
+    width: 100%;
+  }
+  .img-container {
+    right: 0%;
+  }
+  .img-container img {
+    width: 35rem;
+    padding-top: 3%;
+  }
+  .book-desc {
+    font-size: 1.8rem;
+  }
+  .txt {
+    font-size: 1.6rem;
+  }
+  .book-container {
+    padding: 0rem 2rem;
+    column-gap: 8rem;
+  }
+  .book_img-container img {
+    height: 25rem;
+    width: 20rem;
+  }
+  .pad-lft {
+    padding-left: 0;
+    padding-top: 0;
+  }
+
+  .side-content {
+    /* display: none; */
+  }
+  .email-me {
+    display: none;
+  }
+  .hobby-container {
+    flex-wrap: wrap;
+    row-gap: 2rem;
+  }
+
+  .contact-content {
+    column-gap: 0rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact {
+    text-align: center;
+  }
+  .con-txt-container {
+    text-align: center;
+    margin-top: 0rem;
+  }
+
+  .con-txt {
+    margin-top: 0.6rem;
+  }
+  .form-container {
+    margin-top: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  htmL {
+    font-size: 30%;
+  }
+  .main-content {
+    width: 95%;
+  }
+  .about-me {
+    font-size: 1.8rem;
+  }
+  .img-container {
+    right: -12%;
+  }
+  .img-container img {
+    width: 30rem;
+    width: max(100%, 135px);
+  }
+  .hobby-container {
+    padding: 0rem 2rem;
+  }
+  .x-container {
+    top: 5px;
+  }
+  .x-container img {
+    width: 18px;
+  }
+  .close img[inv] {
+    width: 18px;
+  }
+}
